@@ -1,14 +1,15 @@
 package com.example.a17j901.demo2.data.entities
 
+import android.support.annotation.IntegerRes
 import java.util.*
 
-data class FelyListFly(
-        val originDate: Date,
-        val originCity: String,
-        val destinationDate:Date,
-        val destinationCity:String
+ class FlyListemFly( val originDate: Date,
+                    val originCity: String,
+                    val destinationDate:Date,
+                    val destinationCity:String,
+                    val airlineLog: IntegerRes )
 
-)
+
 {
     fun getFlyDuration() :Long {
         return  destinationDate.time -originDate.time
