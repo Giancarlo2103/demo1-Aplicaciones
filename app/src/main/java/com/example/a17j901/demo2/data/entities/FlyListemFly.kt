@@ -7,7 +7,7 @@ import java.util.*
                     val originCity: String,
                     val destinationDate:Date,
                     val destinationCity:String,
-                    val airlineLog: IntegerRes )
+                    val airlineLog: Int )
 
 
 {
